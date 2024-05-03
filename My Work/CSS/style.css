@@ -1,0 +1,85 @@
+section{
+    background-image: url('https://images.unsplash.com/photo-1436891620584-47fd0e565afb?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dß');
+    background-size: cover;
+    height: 2000px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 7%;
+    color: white;
+    font-size: 40px;
+}
+
+.workGrid{
+    display: grid;
+    grid-template-rows: 1fr, 1fr; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100%;
+    margin: 5%;
+}
+
+.pinkcloudcontent {
+    background-color: black;
+    height: 60%;
+}
+
+.oasiscontent{
+    background-color: rgb(191, 247, 243);
+    height: 115%;
+}
+
+h4,h5{
+    margin-top: 20%;
+    margin-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 500
+}
+
+h4{
+    color: white;
+}
+
+h5{
+    color: black;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.pinkcloudfirstparagraph, .oasisfirstparagraph {
+    font-weight: lighter;
+}
+
+.pinkcloudfirstparagraph, .pinkcloudsecondparagraph{
+    color: white;
+}
+
+button {
+    margin-left: 10%;
+    width: 125px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(152, 183, 246);
+    border-color: blueviolet;
+    margin-top: 5%;
+}
+
+.pinkcloudimages {
+    margin-right: 2%;
+    background-color: black;
+    height: 60%;
+}
+
+.oasisimages {
+    margin-right: 2%;
+    background-color: rgb(191, 247, 243);
+    height: 115%;
+}
+
+
+
